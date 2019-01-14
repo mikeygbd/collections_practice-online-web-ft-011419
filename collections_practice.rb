@@ -15,6 +15,6 @@ end
 
 def swap_elements(array)
   array.sort do |a, b|
-  a[1],b[2] = b[1], a[2]
+  a, b = b, a
 end
 end
