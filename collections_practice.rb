@@ -27,6 +27,6 @@ new_array =[]
 array.each do |i|
   if chars.length == 3
     puts "$"
-
+  end
   end
 end
