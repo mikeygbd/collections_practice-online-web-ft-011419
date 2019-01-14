@@ -54,8 +54,8 @@ def add_s(array)
     if i != (array[1])
       i = "#{i}s"
 else
-   
-  array[1] << "feet"
+
+  
 
 
 
