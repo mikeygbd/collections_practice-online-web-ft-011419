@@ -20,5 +20,13 @@ end
 
 def reverse_array(array)
 array.reverse!
+end
 
+def kesha_maker(array)
+new_array =[]
+array.each do |i|
+  if chars.length == 3
+    puts "$"
+
+  end
 end
