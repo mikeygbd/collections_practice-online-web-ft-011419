@@ -24,6 +24,7 @@ end
 
 def kesha_maker(array)
 new_array =[]
+chars = array.split('')
 array.each do |i|
   if chars.length == 3
     puts "$"
