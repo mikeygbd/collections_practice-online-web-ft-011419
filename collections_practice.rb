@@ -49,16 +49,12 @@ array.inject do |sum, n|
 end
 
 def add_s(array)
-  new_array = []
+
   array.map do |i|
     if i != (array[1])
       i = "#{i}s"
 else
-
   array[1]
-
-
-
+    end
   end
-end
 end
