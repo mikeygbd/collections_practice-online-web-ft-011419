@@ -14,7 +14,7 @@ array.sort do |a, b|
 end
 
 def swap_elements(array)
-  array.swap([1],[2])
+array[1], array[2] = array[2], array,[1]
 
 end
 
@@ -49,7 +49,6 @@ array.inject do |sum, n|
 end
 
 def add_s(array)
-
   array.map do |i|
     if i != (array[1])
       i = "#{i}s"
