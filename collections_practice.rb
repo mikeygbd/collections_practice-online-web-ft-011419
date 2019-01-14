@@ -20,5 +20,6 @@ end
 end
 
 def reverse_array(array)
-array.sort.reverse
+array.sort.reverse do |a, b|
+  a <=> b
 end
