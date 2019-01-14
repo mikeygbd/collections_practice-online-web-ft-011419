@@ -53,5 +53,5 @@ def add_s(array)
   array.map do |word|
     new_array << "#{word}\s"
   end
-
+new_array
 end
