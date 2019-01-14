@@ -26,13 +26,8 @@ array.reverse!
 end
 
 def kesha_maker(array)
-new_array =[]
-chars = array.split('')
-array.each do |i|
-  if chars.length == 3
-    puts "$"
-  end
-  end
+(0..array.size).step(3) { |n| array[n] = "$" }
+
 end
 
 def find_a(array)
