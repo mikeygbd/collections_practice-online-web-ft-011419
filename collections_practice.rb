@@ -18,5 +18,5 @@ def swap_elements(array)
 if a == array[1] && b == array[2]
   a > b
 end
-
+end
 end
