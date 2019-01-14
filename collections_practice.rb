@@ -33,7 +33,9 @@ array.each do |i|
 end
 
 def find_a(array)
+  new_array = []
   array.each do |i|
-  i.start_with?("a")
+  new_array << i.start_with?("a")
 end
+new_array
 end
