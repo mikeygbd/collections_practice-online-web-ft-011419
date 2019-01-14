@@ -51,12 +51,12 @@ end
 def add_s(array)
   new_array = []
   array.map do |i|
-    
+
       i[0],i[2],i[3] = "#{i}s"
 
 
 
-  end
+  
 end
 
 end
