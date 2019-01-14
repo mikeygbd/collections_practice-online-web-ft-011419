@@ -20,7 +20,7 @@ end
 end
 
 def reverse_array(array)
-array.sort.reverse do |a, b|
+array.sort.reverse! do |a, b|
   a <=> b
 end
 end
