@@ -52,8 +52,9 @@ def add_s(array)
   new_array = []
   array.map do |i|
     if i != "feet"
+      i == "#{i}s"
 
-    new_array << "#{i}s"
+    new_array << i
   end
   end
 new_array
