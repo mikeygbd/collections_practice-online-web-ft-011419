@@ -51,7 +51,7 @@ end
 def add_s(array)
   new_array = []
   array.map do |i|
-    if !i.include?(array[1])
+    if i != (array[1])
       i = "#{i}s"
 
 
