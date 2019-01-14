@@ -4,6 +4,6 @@ array.sort
 end
 
 def sort_array_desc(array)
-array.sort_by.reverse_each
+array.sort.reverse
 
 end
