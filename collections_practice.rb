@@ -55,7 +55,7 @@ def add_s(array)
       i = "#{i}s"
 else
 
-  
+  array[1]
 
 
 
