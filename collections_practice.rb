@@ -31,3 +31,9 @@ array.each do |i|
   end
   end
 end
+
+def find_a(array)
+  array.each do |i|
+  i.start_with?("a")
+end
+end
