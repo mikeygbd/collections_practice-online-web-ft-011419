@@ -18,3 +18,4 @@ def swap_elements(array
   self[a], self[b] = self[b], self[a]
 end
 end
+end
