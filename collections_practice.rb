@@ -26,7 +26,8 @@ array.reverse!
 end
 
 def kesha_maker(array)
-array.(0..str.size).step(3) { |n| array[n] = "$" }
+array.each do |i|
+   i[2] = "$"
 
 end
 
