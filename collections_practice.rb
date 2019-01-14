@@ -13,10 +13,9 @@ array.sort do |a, b|
   end
 end
 
-def swap_elements(array)
-  array.sort do |a,b|
-if a == array[1] && b == array[2]
-  a, b = b, a
-end
+def swap_elements(a, b )
+  self[a], self[b] = self[b], self[a]
+  self
+
 end
 end
