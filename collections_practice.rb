@@ -49,6 +49,9 @@ array.inject do |sum, n|
 end
 
 def add_s(array)
-  array.map { |word| "#{word}\s" }
+  new_array = []
+  array.map do |word|
+    new_array << "#{word}\s"
+  end
 
 end
