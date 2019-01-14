@@ -19,5 +19,5 @@ def swap_elements(array
   self
 end
 
-
+end
 end
