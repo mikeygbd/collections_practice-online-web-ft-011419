@@ -54,8 +54,8 @@ def add_s(array)
     if !i.include?("feet")
       i = "#{i}s"
 
-    new_array << i
+
+  
   end
-  end
-new_array
+
 end
