@@ -37,7 +37,11 @@ def find_a(array)
   array.each do |i|
   if i.start_with?("a")
     new_array << i
+    end
   end
-end
 new_array
+end
+
+def sum_array(array)
+array.inject {|sum, n| sum + n }
 end
