@@ -14,9 +14,10 @@ array.sort do |a, b|
 end
 
 def swap_elements(array)
-a = array[1]
-b = array[2]
-a,b = b,a
+a = array[0]
+b = array[1]
+c = array[2]
+b,c = c,b
 
 end
 
