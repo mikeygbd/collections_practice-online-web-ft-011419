@@ -50,8 +50,8 @@ end
 
 def add_s(array)
   new_array = []
-  array.map do |word|
-    new_array << "#{word}\s"
+  array.map do |i|
+    new_array << "#{i}s"
   end
 new_array
 end
