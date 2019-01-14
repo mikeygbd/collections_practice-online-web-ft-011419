@@ -17,6 +17,3 @@ def swap_elements(array
   array.sort do |a, b|
   self[a], self[b] = self[b], self[a]
 end
-end
-end
-end
