@@ -13,9 +13,11 @@ array.sort do |a, b|
   end
 end
 
-def swap_elements(a, b)
+def swap_elements(array
+  array.sort do |a, b|
   self[a], self[b] = self[b], self[a]
   self
+end
 
 
 end
